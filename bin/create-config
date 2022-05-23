@@ -42,7 +42,6 @@ function createConfig() {
 
   config = {
     url: process.env.BLOG_URL,
-    posts_per_page: 10,
     logging: {
       level: "info",
       transports: ["stdout"],
