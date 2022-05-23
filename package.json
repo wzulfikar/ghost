@@ -8,6 +8,9 @@
   "engines": {
     "node": "14.X"
   },
+  "config": {
+    "posts_per_page": 10
+  },
   "dependencies": {
     "casper": "github:TryGhost/Casper#main",
     "ghost": "4.44.0",
